@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "node app.js",
    "build": "ejs views/index.ejs -o public/index.html",
-   "start": "node server.js",
+   "start": "node app.js",
   },
   "keywords": [],
   "author": "",
