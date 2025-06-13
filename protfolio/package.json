@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node app.js",
+   "build": "ejs views/index.ejs -o public/index.html",
+   "start": "node server.js",
+   "vercel-build": "npm run build"
   },
   "keywords": [],
   "author": "",
