@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "node index.js",
    "build": "ejs views/index.ejs -o public/index.html",
-   "start": "node index.js",
+   "start": "node index.js"
   },
   "keywords": [],
   "author": "",
