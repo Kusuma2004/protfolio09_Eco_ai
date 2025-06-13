@@ -1,11 +1,11 @@
 {
   "name": "protfolio",
   "version": "1.0.0",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
-    "dev": "node app.js",
+    "dev": "node index.js",
    "build": "ejs views/index.ejs -o public/index.html",
-   "start": "node app.js",
+   "start": "node index.js",
   },
   "keywords": [],
   "author": "",
